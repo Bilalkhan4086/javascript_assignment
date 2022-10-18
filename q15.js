@@ -12,7 +12,7 @@ listOfFriends.forEach((name) => {
   console.log(`${name} you are invited for today's dinner in PU.`);
 });
 
-console.log("\n\nasad is available for dinner so I will invite saad\n\n");
+console.log("\n\nasad is unavailable for dinner so I will invite saad\n\n");
 
 listOfFriends[4] = "saad";
 

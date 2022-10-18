@@ -28,3 +28,20 @@ listOfFriends.push("ali");
 listOfFriends.forEach((name) => {
   console.log(`${name} you are invited for today's dinner in PU.`);
 });
+
+console.log("I will invite only two guests only\n");
+
+while (listOfFriends.length > 2) {
+  console.log(
+    listOfFriends.pop(),
+    "you’re sorry you can’t invite them to dinner"
+  );
+}
+
+listOfFriends.map((name) => {
+  console.log(name, "you are still invited");
+});
+
+listOfFriends.splice(0);
+
+console.log("list of friend", listOfFriends);
